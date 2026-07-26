@@ -7,6 +7,8 @@ import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
 import WhyChoose from "@/components/WhyChoose";
 import FAQ from "@/components/FAQ";
+import FinalCTA from "@/components/FinalCTA";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
         <Pricing />
         <WhyChoose />
         <FAQ />
+        <FinalCTA />
+        <Footer />
       </div>
     </main>
   );
