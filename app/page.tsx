@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Dashboard from "@/components/Dashboard/Dashboard";
 import Trust from "@/components/Trust";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Dashboard />
         <Trust />
+        <Features />
       </div>
     </main>
   );
