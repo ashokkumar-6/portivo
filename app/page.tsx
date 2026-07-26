@@ -4,6 +4,7 @@ import Dashboard from "@/components/Dashboard/Dashboard";
 import Trust from "@/components/Trust";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Trust />
         <Features />
         <HowItWorks />
+        <Pricing />
       </div>
     </main>
   );
