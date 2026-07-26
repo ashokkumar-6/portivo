@@ -5,6 +5,7 @@ import Trust from "@/components/Trust";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
+import WhyChoose from "@/components/WhyChoose";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Features />
         <HowItWorks />
         <Pricing />
+        <WhyChoose />
       </div>
     </main>
   );
